@@ -1,3 +1,4 @@
 def encode(*args):
+    textoutput = str()
     for letter in str(args):
-        break
+        textoutput = textoutput + halfbytes[letter]
